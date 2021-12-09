@@ -4,3 +4,11 @@
     margin: 0;
     padding: 0;
 }
+
+.bg{
+    background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
