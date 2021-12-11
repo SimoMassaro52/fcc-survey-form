@@ -5,10 +5,51 @@
     padding: 0;
 }
 
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h2, p, label{
+    color: white;
+}
+
+/*BACKGROUND*/
 .bg{
     background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     min-height: 100vh;
+    box-shadow: inset 100vw 0 0 0 rgba(61, 62, 139, 0.8);
+}
+
+/*TITLE*/
+
+i{
+    font-size: 18px;
+}
+
+/*SURVEY BOX*/
+
+.custom_half-dark-bg{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+form *{
+    border: none;
+}
+
+span{
+    font-size: 12px;
+}
+
+input[type=radio]{
+    height: 18px;
+    width: 18px;
+}
+
+input[type=checkbox]{
+    height: 18px;
+    width: 18px;
 }
