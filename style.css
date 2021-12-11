@@ -53,3 +53,11 @@ input[type=checkbox]{
     height: 18px;
     width: 18px;
 }
+
+textarea{
+    resize: none;
+}
+
+.custom_green-bg{
+background-color: #37af65;
+}
